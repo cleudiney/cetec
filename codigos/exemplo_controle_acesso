@@ -1,0 +1,44 @@
+programa
+{
+	
+cadeia usuario[2]
+	inteiro senha[2]
+	inteiro privilegio[2]
+	
+	funcao inicio()
+	{
+		//criar um menu infinito
+
+		//chamar a funcao pertinente
+		// dentro da funcao pertinente ver se o usuario pode executar 
+	}
+	funcao abrir_loja()
+	{
+		//usar condicional se e conector "e"
+		// se o usuario existir e a senha for dele e ele tiver o privilegio 1
+se
+		escreva("Voce pode estar aqui")
+senao
+		escreva(voce nao pode estar aqui)
+		menu()
+		
+
+		
+	}
+	funcao produzir_calcado()
+	{
+		//usar condicional se e conector "e"
+		// se o usuario existir e a senha for dele e ele tiver o privilegio 2
+		
+
+		
+	}
+	funcao cadastrar_usuario()
+	{
+		
+
+		
+	}
+	
+		
+}
