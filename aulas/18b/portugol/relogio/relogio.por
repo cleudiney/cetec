@@ -16,16 +16,35 @@ programa
 			
 		}
 		conta_minutos()
+		//aqui precisa de alguma coisa tipo zerar os segundos
 	}
 	funcao conta_minutos()
 	{
 		minutos=minutos+1
 		//tem um se aqui
-		
+
+		//se os minutos chegaram em 59
+		//tem de contar mais 1 minuto e zerar os minutos
+		//apos isto ir para funcao hora 
 		conta_segundos()
+		//aqui precisa de alguma coisa tipo zerar os minutos
 		
 		
 	}
+	funcao conta_horas()
+	{
+		uni_horas=uni_horas+1
 
+		//criar condicao de incremento das dezenas de hora
+		
+
+		
+	}
+	funcao mostra_horas()
+	{
+		limpa()
+		escreva(dez_horas,uni_horas,":",minutos,":",segundos)
+		conta_segundos()
+	}
 	
 }
