@@ -17,11 +17,26 @@ let opcao=prompt( "digite: \n 1 - feijao\n 2 - arroz \n 3 - acucar \n 4 - macarr
 //meu opcao esta valendo o que eu digitei
 switch (opcao) 
 {
-  case 0:
-    text = "Off";
-    break;
   case 1:
-    text = "On";
+    pote_feijao(quant1);
+    break;
+  case 2:
+    pote_arroz(quant1);
+    break;
+  case 3:
+	pote_acucar(quant1);
+    break;
+  case 4:
+    pote_macarrao(quant1);
+    break;
+  case 5:
+    pote_farinha(quant1);
+    break;
+  case 6:
+    pote_cafe(quant1);
+    break;
+  case 7:
+    pote_batapalha(quant1);
     break;
   default:
     text = "No value found";
