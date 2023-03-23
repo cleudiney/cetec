@@ -1,0 +1,97 @@
+<script>
+/*
+proxima aula falar de booleano e laço for ...
+feijao = 1kg
+arroz = 5kg
+acucar = 5kg
+macarrao = 500grs
+farinha = 250 grs
+cafe = 500 grs
+batata_palha = 1,5 kg
+*/
+
+// as unidades consideradas serao em gramas 
+
+// pois vamos usar inteiros para declarar nossas constantes
+const CAP_POTEFEIJAO=1000, CAP_POTEARROZ=5000, CAP_POTEACUCAR=5000, CAP_POTEMACARRAO=500, CAP_POTEFARINHA=250,CAP_POTECAFE=500, CAP_BATPALHA=1500; 
+
+
+
+var quant1=0, poteFeijao=0, poteArroz=0, poteAcucar=0, poteMacarrao=0,poteFarinha=0, poteCafe=0, poteBatatapalha=0;
+
+
+let opcao=prompt( "digite: \n 1 - feijao\n 2 - arroz \n 3 - acucar \n 4 - macarrao \n 5 - farinha  \n 6- cafe \n 7 - batata_palha \n ");
+//meu opcao esta valendo o que eu digitei
+quant1=prompt("Qual a quantidade de mantimento?");
+switch (opcao) 
+{
+  case 1:
+    pote_feijao(quant1);
+    break;
+  case 2:
+    pote_arroz(quant1);
+    break;
+  case 3:
+	pote_acucar(quant1);
+    break;
+  case 4:
+    pote_macarrao(quant1);
+    break;
+  case 5:
+    pote_farinha(quant1);
+    break;
+  case 6:
+    pote_cafe(quant1);
+    break;
+  case 7:
+    pote_batapalha(quant1);
+    break;
+  default:
+    text = "No value found";
+}
+
+function pote_feijao(quant1) 
+{
+
+	if (poteFeijao < CAP_POTEFEIJAO) 
+	{
+		let sobrando=0;
+		//encher o pote de feijao
+		poteFeijao=poteFeijao+quant1;
+		sobrando = CAP_POTEFEIJAO-poteFeijao;
+		return sobrando;
+	}
+	else
+	{
+		let sobrando=0;
+		prompt("O pote já está cheio")
+		return 
+	}
+  
+  return p1 * p2;
+}
+function pote_arroz(quant1) 
+{
+  return p1 * p2;
+}
+function pote_acucar(quant1) 
+{
+  return p1 * p2;
+}
+function pote_macarrao(quant1) 
+{
+  return p1 * p2;
+}
+function pote_farinha(quant1) 
+{
+  return p1 * p2;
+}
+function pote_cafe(quant1) 
+{
+  return p1 * p2;
+}
+function pote_batapalha(quant1) 
+{
+  return p1 * p2;
+}
+</script>
